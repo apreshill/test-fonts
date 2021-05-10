@@ -1,0 +1,22 @@
+---
+title: "MARKDOWN"
+output: 
+  html_document:
+    css: style.css
+    self_contained: true
+---
+
+```{cat, engine.opts = list(file = "style.css")}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+
+
+body {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: var(--charcoal);
+}
+```
+
+April was LAST month.
+
+Some text with several AAAAA
